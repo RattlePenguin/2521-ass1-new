@@ -1,5 +1,6 @@
 struct node {
-    char *value;
+    int type;
+    void *value;
     struct node *left;
     struct node *right;
 };
