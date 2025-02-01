@@ -7,7 +7,7 @@
 #define TYPE_OPERATOR 1
 
 int main(int argc, char *argv[]) {
-    printf("LISP> ");
+    printf("lispc> ");
     
     // Continuous stdin
     char input[MAX_STR_LEN];
